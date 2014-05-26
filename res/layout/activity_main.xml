@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:focusable="true" 
+    android:focusableInTouchMode="true"
+    tools:context="com.zylix.simon.intel.mindpassword.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="498dp"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/Password_check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/Password_check1" 
+            android:onClick="onCheckboxClicked" />
+
+        <CheckBox
+            android:id="@+id/Password_check2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/Password_check2"
+            android:onClick="onCheckboxClicked" />
+
+        <CheckBox
+            android:id="@+id/Password_check3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/Password_check3" 
+            android:onClick="onCheckboxClicked" />
+
+        <CheckBox
+            android:id="@+id/Password_check4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/Password_check4" 
+            android:onClick="onCheckboxClicked" />
+
+        <CheckBox
+            android:id="@+id/Password_check5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/Password_check5" 
+            android:onClick="onCheckboxClicked" />
+
+        <RatingBar
+            android:id="@+id/password_inputbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/unlock_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/unlock_button" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/reset_button" />
+
+        <Button
+            android:id="@+id/connect_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/connect_button" 
+            android:onClick="doStuff" />
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            <TextView
+            android:id="@+id/debug_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+            <WebView
+        	android:id="@+id/webview"
+     		android:layout_width="match_parent"
+     		android:layout_height="match_parent"
+     		android:layout_alignParentTop="true" />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
+

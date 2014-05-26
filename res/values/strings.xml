@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MindPassword</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="Password_check1">Password1</string>
+	<string name="Password_check2">Password2</string>
+	<string name="Password_check3">Password3</string>
+	<string name="Password_check4">Password4</string>
+	<string name="Password_check5">Password5</string>
+	<string name="unlock_button">Unlock</string>
+	<string name="reset_button">Reset</string>
+	<string name="connect_button">Connect</string>
+	
+	<string name="pref_send_report">Send crash reports</string>
+    <string name="pref_send_report_summary">Helps to fix bugs</string>
+    <string name="BrainEvent01">Password 01</string>
+    <string name="BrainEvent02">Password 02</string>
+    <string name="BrainEvent03">Password 03</string>
+    <string name="BrainEvent04">Password 04</string>
+    <string name="BrainEvent05">Password 05</string>
+    <string name="pref_sync_frequency_summary">Set the sync frequency</string>
+    <string name="pref_user_name">Set username</string>
+    <string name="pref_user_name_summary">Set your username</string>
+    
+    <string name="pref_user_profile">User Profile</string>
+    <string name="pref_update_setting">Update Settings</string>
+</resources>

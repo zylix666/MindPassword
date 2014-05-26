@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="syncFrequency">
+        <item name="1">Attention</item>
+        <item name="7">Mediation</item>
+        <item name="3">Blink</item>
+    </string-array>
+	<string-array name="syncFrequencyValues">
+        <item name="1">1</item>
+        <item name="7">7</item>
+        <item name="3">3</item>
+    </string-array>
+	
+</resources>
