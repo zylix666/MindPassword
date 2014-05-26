@@ -330,12 +330,12 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 				timer.cancel();
 				current_input = -1;
 				confirm_button.setEnabled(false);
-				mWebView.loadUrl("http://192.168.15.234:1337/ledoff");
+				mWebView.loadUrl("http://<ip-address>/ledoff");
 				//-------------------------------
 				break;	
 		
 			case R.id.unlock_button: {
-				mWebView.loadUrl("http://192.168.15.234:1337/ledon");
+				mWebView.loadUrl("http://<ip-address>/ledon");
 				break;
 			}
 		}		
